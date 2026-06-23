@@ -1,0 +1,7 @@
+
+This solution uses the Brute Force String Matching technique.
+
+Traverse each possible starting position in haystack.
+Compare characters of needle with the corresponding characters in haystack.
+If all characters match, return the current starting index.
+If no match is found after checking all positions, return -1.
